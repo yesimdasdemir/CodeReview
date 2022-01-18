@@ -16,6 +16,7 @@
 		24DDAEA127976149009881AD /* CodeReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDAEA027976149009881AD /* CodeReviewTests.swift */; };
 		24DDAEAB27976149009881AD /* CodeReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDAEAA27976149009881AD /* CodeReviewUITests.swift */; };
 		24DDAEAD27976149009881AD /* CodeReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDAEAC27976149009881AD /* CodeReviewUITestsLaunchTests.swift */; };
+		24DDAEBA2797616D009881AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 24DDAEB92797616D009881AD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		24DDAEA627976149009881AD /* CodeReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DDAEAA27976149009881AD /* CodeReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeReviewUITests.swift; sourceTree = "<group>"; };
 		24DDAEAC27976149009881AD /* CodeReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24DDAEB92797616D009881AD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../ios-cr-task/README.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				24DDAE9227976148009881AD /* Assets.xcassets */,
 				24DDAE9427976148009881AD /* LaunchScreen.storyboard */,
 				24DDAE9727976148009881AD /* Info.plist */,
+				24DDAEB92797616D009881AD /* README.md */,
 			);
 			path = CodeReview;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				24DDAE9627976148009881AD /* LaunchScreen.storyboard in Resources */,
 				24DDAE9327976148009881AD /* Assets.xcassets in Resources */,
+				24DDAEBA2797616D009881AD /* README.md in Resources */,
 				24DDAE9127976147009881AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,7 +460,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -484,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
